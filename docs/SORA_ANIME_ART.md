@@ -32,3 +32,11 @@ Palette: periwinkle blue, lavender, indigo, glowing peach and mint.
 
 Overcast Japanese seaside neighborhood, thick silver-lavender cloud cover, mint sea, pastel peach rooftops, pink hydrangeas and an aqua bicycle beside steps. Luminous diffuse daytime light, no sun or clear blue sky. Powder blue, lilac, mint and blush pink. Same shared style and composition constraints.
 
+
+## Final saved assets
+
+- `/home/electron/Projects/sora_weather/assets/weather/clear.png`
+- `/home/electron/Projects/sora_weather/assets/weather/cloudy.png`
+- `/home/electron/Projects/sora_weather/assets/weather/rain.png`
+- `/home/electron/Projects/sora_weather/assets/weather/snow.png`
+- `/home/electron/Projects/sora_weather/assets/weather/night.png`

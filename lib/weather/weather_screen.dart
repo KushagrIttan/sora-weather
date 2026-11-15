@@ -605,13 +605,16 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                     backgroundColor:
                                         selectedDay == i
                                             ? const Color(0xFF5869D9)
-                                            : Colors.white.withValues(
-                                              alpha: 0.75,
-                                            ),
+                                            : (dark
+                                                    ? const Color(0xFF2D3C5B)
+                                                    : Colors.white)
+                                                .withValues(alpha: 0.9),
                                     side: BorderSide(
                                       color:
                                           selectedDay == i
                                               ? const Color(0xFF5869D9)
+                                              : dark
+                                              ? const Color(0xFF4B5D7C)
                                               : const Color(0xFFE8E5F5),
                                     ),
                                     label: Text(
@@ -622,7 +625,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
                                         color:
                                             selectedDay == i
                                                 ? Colors.white
-                                                : muted,
+                                                : Theme.of(
+                                                  context,
+                                                ).colorScheme.onSurfaceVariant,
                                       ),
                                     ),
                                   ),
@@ -1226,7 +1231,10 @@ class _WeatherScreenState extends State<WeatherScreen> {
       style: TextStyle(
         fontSize: 9,
         height: 1.5,
-        color: p.stale ? const Color(0xFFB17859) : muted,
+        color:
+            p.stale
+                ? const Color(0xFFB17859)
+                : Theme.of(context).colorScheme.onSurfaceVariant,
       ),
     );
   }
