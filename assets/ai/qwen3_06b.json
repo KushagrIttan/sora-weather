@@ -1,0 +1,16 @@
+{
+  "id": "qwen3-0.6b-int4-2026-10-31",
+  "name": "Qwen3 0.6B · INT4",
+  "repository": "litert-community/Qwen3-0.6B",
+  "revision": "8768ea43e6d801ee0d353e5036007e6790a2ba05",
+  "filename": "Qwen3-0.6B_dynamic_wi4b32_afp32.litertlm",
+  "bytes": 343490560,
+  "sha256": "bf1aba9ce8d963124407353c6aa4cbf72eba78db21ae133de983eac672ce83e0",
+  "runtime": "0.19.1",
+  "license": "Apache-2.0",
+  "contextTokens": 2048,
+  "maxOutputTokens": 512,
+  "thinking": false,
+  "backend": "cpu",
+  "reserveBytes": 1073741824
+}
